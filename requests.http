@@ -1,0 +1,22 @@
+GET http://localhost:8080/no-param
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/param?name=Peter
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/body
+Accept: */*
+Cache-Control: no-cache
+
+{ "login":"Bob" }
+
+###
+
+
+
